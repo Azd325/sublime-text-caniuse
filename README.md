@@ -11,6 +11,17 @@ Added to the User Keybindings this line
 
     { "keys": ["ctrl+alt+d"], "command": "use_it" }
     
+Usage
+=====
+
+If you on a css property with your cursor or you marked a whole property, you can use the shortcut and it open a tab in you webbrowser.
+
+
+Tip:
+----
+You can use multiple selection.
+
+    
 License
 =======
 
