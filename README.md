@@ -10,7 +10,7 @@ Copy the python file in  your Packages/User Folder.
 Added to the User Keybindings this line
 
     { "keys": ["ctrl+alt+d"], "command": "use_it" }
-    
+
 Usage
 =====
 
@@ -21,7 +21,14 @@ Tip:
 ----
 You can use multiple selection.
 
-    
+
+TODO
+====
+
+- Add to the main repo of the sublime package manager
+- To try to work with the quick panel
+
+
 License
 =======
 
