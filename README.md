@@ -1,32 +1,32 @@
 Overview
 ========
 
-This plugin add the support to find out the support of a css property.
+This plugin lets you instantly find out css property support via caniuse.com
 
-Install
-=======
+Installation
+============
 
-Copy the python file in  your Packages/User Folder.
-Added to the User Keybindings this line
+Copy the python file to your Packages/User Folder.
+Add this line to the User Keybindings
 
     { "keys": ["ctrl+alt+d"], "command": "use_it" }
 
 Usage
 =====
 
-If you on a css property with your cursor or you marked a whole property, you can use the shortcut and it open a tab in you webbrowser.
+Mark or place your cursor over a css property and use the shortcut to open a new tab on you webbrowser with the info.
 
 
 Tip:
 ----
-You can use multiple selection.
+Use multiple selection to display info on all selected elements.
 
 
 TODO
 ====
 
-- Add to the main repo of the sublime package manager
-- To try to work with the quick panel
+- Add this plugin to the main repo of the sublime package manager
+- Try to work with the quick panel
 
 
 License
