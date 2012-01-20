@@ -9,7 +9,7 @@ Installation
 Copy the python file to your Packages/User Folder.
 Add this line to the User Keybindings
 
-    { "keys": ["ctrl+alt+d"], "command": "use_it" }
+    { "keys": ["ctrl+alt+f"], "command": "use_it" }
 
 Usage
 =====
