@@ -1,0 +1,5 @@
+[
+    {
+        "keys": ["ctrl+alt+f"], "command": "use_it"
+    }
+]
