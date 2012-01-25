@@ -6,6 +6,10 @@ This plugin lets you instantly find out css property support via caniuse.com
 Installation
 ============
 
+Use the Sublime Package Control and search for Can I Use
+
+or
+
 Copy the python file to your Packages/User Folder.
 Add this line to the User Keybindings
 
@@ -25,7 +29,6 @@ Use multiple selection to display info on all selected elements.
 TODO
 ====
 
-- Add this plugin to the main repo of the sublime package manager
 - Try to work with the quick panel
 
 
