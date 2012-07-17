@@ -3,8 +3,7 @@ import sublime_plugin
 import webbrowser
 
 
-class useItCommand(sublime_plugin.TextCommand):
-
+class UseItCommand(sublime_plugin.TextCommand):
     """
     This will search a word or a selection.
     Default binding recommendation: "ctrl + alt + d"
