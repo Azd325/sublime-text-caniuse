@@ -6,7 +6,7 @@ This plugin lets you instantly find out the css property support via caniuse.com
 Installation
 ============
 
-Use the Sublime Package Control and search for Can I Use
+Use the [Sublime Package Control](http://wbond.net/sublime_packages/package_control) and search for Can I Use
 
 or
 
