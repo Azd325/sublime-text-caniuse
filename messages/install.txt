@@ -1,0 +1,17 @@
+Can I Use
+=========
+
+This plugin lets you instantly find out the css property support via caniuse.com
+
+
+Customization
+=============
+
+Include this in the user key binding to overwrite default behaviour
+
+    { "keys": ["ctrl+alt+f"], "command": "use_it" }
+
+Usage
+=====
+
+Mark or place your cursor over a css property and use the shortcut to open a new tab on you webbrowser with the info.

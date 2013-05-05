@@ -1,0 +1,8 @@
+Can I Use 0.9.1 Changelog:
+
+- Change the key back to another value please add this to the user key
+  bindings "keys": ["ctrl+alt+d"], "command": "use_it"
+
+
+CHANGES / FIXES:
+ - Default key binding under linux changed to ctr+alt+d

@@ -1,7 +1,7 @@
 Overview
 ========
 
-This plugin lets you instantly find out css property support via caniuse.com
+This plugin lets you instantly find out the css property support via caniuse.com
 
 Installation
 ============
