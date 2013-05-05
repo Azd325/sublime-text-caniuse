@@ -1,5 +1,5 @@
 [
     {
-        "keys": ["ctrl+alt+f"], "command": "use_it"
+        "keys": ["ctrl+alt+d"], "command": "use_it"
     }
 ]
