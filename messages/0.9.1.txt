@@ -6,3 +6,4 @@ Can I Use 0.9.1 Changelog:
 
 CHANGES / FIXES:
  - Default key binding under linux changed to ctr+alt+d
+ - Fixes problem with hyphens
