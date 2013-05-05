@@ -1,6 +1,5 @@
 import sublime
 import sublime_plugin
-import webbrowser
 import re
 
 
@@ -26,4 +25,5 @@ class UseItCommand(sublime_plugin.TextCommand):
             re_search = CLEAN_CSS_PATTERN.search(search)
             if re_search:
                 search = re_search.group()
-            webbrowser.open_new_tab(BASE_URL + search)
+            self.view.window().run_command('open_url', \
+                {"url": BASE_URL + search})
