@@ -19,10 +19,12 @@ class UseItCommand(sublime_plugin.TextCommand):
             point = region.begin()
             scope = self.view.extract_scope(point)
             search = self.view.substr(scope)
-            # Clean the selection
-            re_search = CLEAN_CSS_PATTERN.search(search)
-            if re_search:
-                search = re_search.group()
+
+            # Clean the selection on css syntax
+            if "CSS" in self.view.settings().get('syntax'):
+                re_search = CLEAN_CSS_PATTERN.search(search)
+                if re_search:
+                    search = re_search.group()
             self.view.window().run_command(
                 'open_url', {"url": BASE_URL + search}
             )
