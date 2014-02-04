@@ -21,7 +21,7 @@ class UseItCommand(sublime_plugin.TextCommand):
             search = self.view.substr(scope)
 
             # Clean the selection on css syntax
-            if "CSS" in self.view.settings().get('syntax'):
+            if "/CSS" in self.view.settings().get('syntax'):
                 re_search = CLEAN_CSS_PATTERN.search(search)
                 if re_search:
                     search = re_search.group()
