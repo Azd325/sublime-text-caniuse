@@ -1,0 +1,8 @@
+Can I Use 1.0 Changelog:
+
+CHANGES / FIXES:
+ - Initital Support for css frameworks
+ - Checks now the syntax to decide which code is running
+
+NOTE:
+ - Please let me know if something goes wrong
