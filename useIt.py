@@ -26,4 +26,6 @@ class UseItCommand(sublime_plugin.TextCommand):
                 re_search = CLEAN_CSS_PATTERN.search(search)
                 if re_search:
                     search = re_search.group()
+            print(webbrowser._tryorder)
+            print(webbrowser._browsers.items())
             webbrowser.open_new_tab(BASE_URL + search)
