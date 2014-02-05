@@ -1,5 +1,6 @@
 import sublime_plugin
 import re
+import webbrowser
 
 # Outside pattern compilation to have better performance for multi
 # selection
@@ -25,6 +26,4 @@ class UseItCommand(sublime_plugin.TextCommand):
                 re_search = CLEAN_CSS_PATTERN.search(search)
                 if re_search:
                     search = re_search.group()
-            self.view.window().run_command(
-                'open_url', {"url": BASE_URL + search}
-            )
+            webbrowser.open_new_tab(BASE_URL + search)
