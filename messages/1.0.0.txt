@@ -1,4 +1,4 @@
-Can I Use 1.0 Changelog:
+Can I Use 1.0.0 Changelog:
 
 CHANGES / FIXES:
  - Initial Support for css frameworks
