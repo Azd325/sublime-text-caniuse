@@ -1,0 +1,7 @@
+Can I Use 1.1.0 Changelog:
+
+CHANGES / FIXES:
+ - You can no define a default browser over the settings
+
+NOTE:
+ - Please let me know if something goes wrong
