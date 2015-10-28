@@ -1,0 +1,25 @@
+{
+    "default_browser": ""
+
+	// Type Name	Class Name	Notes
+	// 'mozilla'	Mozilla('mozilla')	 
+	// 'firefox'	Mozilla('mozilla')	 
+	// 'netscape'	Mozilla('netscape')	 
+	// 'galeon'	Galeon('galeon')	 
+	// 'epiphany'	Galeon('epiphany')	 
+	// 'skipstone'	BackgroundBrowser('skipstone')	 
+	// 'kfmclient'	Konqueror()	(1)
+	// 'konqueror'	Konqueror()	(1)
+	// 'kfm'	Konqueror()	(1)
+	// 'mosaic'	BackgroundBrowser('mosaic')	 
+	// 'opera'	Opera()	 
+	// 'grail'	Grail()	 
+	// 'links'	GenericBrowser('links')	 
+	// 'elinks'	Elinks('elinks')	 
+	// 'lynx'	GenericBrowser('lynx')	 
+	// 'w3m'	GenericBrowser('w3m')	 
+	// 'windows-default'	WindowsDefault	(2)
+	// 'internet-config'	InternetConfig	(3)
+	// 'macosx'	MacOSX('default')	(4)
+	}
+
