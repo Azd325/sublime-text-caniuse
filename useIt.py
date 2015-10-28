@@ -1,4 +1,7 @@
+import sublime 
 import sublime_plugin
+
+import sys
 import re
 import webbrowser
 
@@ -15,6 +18,9 @@ class UseItCommand(sublime_plugin.TextCommand):
     """
 
     def run(self, edit):
+        s = sublime.load_settings("Can I Use.sublime-settings")
+        default_browser = s.get('default_browser', '')
+
         for region in self.view.sel():
             # Get the start point of the region of the selection
             point = region.begin()
@@ -26,4 +32,7 @@ class UseItCommand(sublime_plugin.TextCommand):
                 re_search = CLEAN_CSS_PATTERN.search(search)
                 if re_search:
                     search = re_search.group()
-            webbrowser.open_new_tab(BASE_URL + search)
+
+
+            browser = webbrowser.get(default_browser)
+            browser.open_new_tab(BASE_URL + search)
