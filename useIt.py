@@ -21,8 +21,12 @@ class UseItCommand(sublime_plugin.TextCommand):
         s = sublime.load_settings("Can I Use.sublime-settings")
         default_browser = s.get('default_browser', '')
 
-        if not default_browser and sublime.platform() == 'windows':
-            default_browser = 'windows-default'
+        if not default_browser:
+            platform = sublime.platform()
+            if platform == 'windows':
+                default_browser = 'windows-default'
+            elif platform == "osx":
+                default_browser = 'macosx'
 
         for region in self.view.sel():
             # Get the start point of the region of the selection
